@@ -16,4 +16,8 @@ echo "M2_HOME = ${M2_HOME}"
                       }
             }
 
+    stage ('Clone') {
+        git url: 'https://github.com/ohryshchenko/spring-boot-master.git'
+        }
+
     }
